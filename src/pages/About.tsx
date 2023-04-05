@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function About() {
 	return (
-		<div className="flex justify-center items-center h-screen">
+		<div className="flex justify-center items-center h-[80vh]">
 			<div className="bg-white shadow-lg rounded-lg w-96 md:w-3/5 lg:w-1/3">
 				<div className="bg-gradient-to-br from-indigo-400 to-purple-500 text-center rounded-t-lg py-8">
 					<h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold font-serif">
