@@ -43,7 +43,7 @@ export default function Answers() {
 					<div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-purple-500"></div>
 				</div>
 			) : (
-				<div className="flex justify-center items-center h-[80vh]" dir="rtl">
+				<div className="flex justify-center items-center h-[80vh]">
 					<div className="bg-white shadow-md rounded-md lg:w-[500px] md:w-[400px] sm:w-[360px]">
 						<div className="m-6">
 							<Question
@@ -61,7 +61,7 @@ export default function Answers() {
 								isLastQuestion={currentQuestionIndex === questions.length - 1}
 								disabled={false}
 								onClick={handleNextClick}
-								isAr={true}
+								isAr={false}
 							/>
 						</div>
 					</div>
