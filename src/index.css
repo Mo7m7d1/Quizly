@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+::-webkit-scrollbar {
+	background-color: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(194, 194, 221, 0.898) !important;
+}
