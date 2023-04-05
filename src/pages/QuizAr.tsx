@@ -45,10 +45,13 @@ export default function Quiz() {
 		navigate("/quizly/homeAr");
 	};
 
+	const onAnswersClick = () => {
+		navigate("/quizly/answersAr", { state: { questions: questions } });
+	};
+
 	const handleNextClick = () => {
 		if (
-			questions[currentQuestionIndex].options[selectedOptionIndex] ===
-			questions[currentQuestionIndex].correct_answer
+			selectedOptionIndex === questions[currentQuestionIndex].correct_answer
 		) {
 			setScore(score + 1);
 		}
@@ -125,6 +128,7 @@ export default function Quiz() {
 							onRestart={handleRestartClick}
 							onMenu={handleMenuClick}
 							isAr={true}
+							onAnswers={onAnswersClick}
 						/>
 					) : (
 						<div className="bg-white shadow-md rounded-md lg:w-[500px] md:w-[400px] sm:w-[360px]">

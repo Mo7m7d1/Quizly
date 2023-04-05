@@ -47,8 +47,9 @@ export default function Quiz() {
 
 	const handleNextClick = () => {
 		if (
+			// fix error
 			questions[currentQuestionIndex].options[selectedOptionIndex] ===
-			questions[currentQuestionIndex].correct_answer
+			String(questions[currentQuestionIndex].correct_answer)
 		) {
 			setScore(score + 1);
 		}
@@ -60,6 +61,11 @@ export default function Quiz() {
 		}
 		setSelectedOptionIndex(-1);
 	};
+
+	const handleAnswersClick = () => {
+		navigate("/quizly/answers", { state: { questions: questions } });
+	};
+
 	const fetchQuestions = async () => {
 		const { category, numQuestions, difficulty }: searchParamsType =
 			getSearchParams(location.search);
@@ -131,6 +137,7 @@ export default function Quiz() {
 							totalQuestions={questions.length}
 							onRestart={handleRestartClick}
 							onMenu={handleMenuClick}
+							onAnswers={handleAnswersClick}
 						/>
 					) : (
 						<div className="bg-white shadow-md rounded-md lg:w-[500px] md:w-[400px] sm:w-[360px]">

@@ -6,6 +6,7 @@ export default function Question({
 	questions,
 	selectedOptionIndex,
 	handleOptionClick,
+	correctOptionIndex,
 }: questionProps) {
 	return (
 		<div className="flex flex-col justify-center items-center space-y-6 ">
@@ -18,9 +19,15 @@ export default function Question({
 						key={index}
 						className={`py-4 px-8 rounded-md cursor-pointer flex items-center justify-between bg-white shadow-md hover:bg-gray-100 focus:bg-gray-100 focus:outline-none ${
 							selectedOptionIndex === index
-								? "bg-gradient-to-r from-blue-500 to-purple-500 text-white"
+								? "bg-gradient-to-r from-purple-500 to-blue-500 text-white"
 								: ""
-						}`}
+						}
+						${
+							correctOptionIndex === index
+								? "bg-gradient-to-r from-purple-500 to-blue-500"
+								: ""
+						}
+						`}
 						onClick={() => handleOptionClick(index)}
 					>
 						<span className="text-gray-800">{decode(option)}</span>

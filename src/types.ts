@@ -8,7 +8,7 @@ export type NextButtonProps = {
 export type questionType = {
 	id?: number;
 	question: string;
-	correct_answer: string;
+	correct_answer: number;
 	incorrect_answers?: string[];
 	options: string[];
 };
@@ -18,6 +18,7 @@ export type questionProps = {
 	questions: questionType[];
 	selectedOptionIndex: number;
 	handleOptionClick: (index: number) => void;
+	correctOptionIndex?: number;
 };
 
 export type ResultsProps = {
@@ -26,6 +27,7 @@ export type ResultsProps = {
 	isAr?: boolean;
 	onRestart: () => void;
 	onMenu: () => void;
+	onAnswers: () => void;
 };
 
 export type searchParamsType = {

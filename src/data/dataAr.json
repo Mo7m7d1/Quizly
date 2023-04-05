@@ -4,21 +4,21 @@
 		"category": 1,
 		"difficulty": 2,
 		"options": ["114", "100", "120", "140"],
-		"correct_answer": "114"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي اللغة الأكثر تحدثاً في العالم؟",
 		"category": 1,
 		"difficulty": 3,
 		"options": ["الإنجليزية", "الصينية", "العربية", "الإسبانية"],
-		"correct_answer": "الصينية"
+		"correct_answer": 1
 	},
 	{
 		"question": "في أي عام انطلقت أول دورة لألعاب الأولمبياد الحديثة؟",
 		"category": 4,
 		"difficulty": 3,
 		"options": ["1896", "1900", "1912", "1920"],
-		"correct_answer": "1896"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو المؤلف الشهير لرواية 1984؟",
@@ -30,58 +30,58 @@
 			"فرانسيس سكوت فيتزجيرالد",
 			"جون ستاينبك"
 		],
-		"correct_answer": "جورج أورويل"
+		"correct_answer": 0
 	},
+
 	{
 		"question": "في أي عام انتهت الحرب العالمية الأولى؟",
 		"category": 3,
 		"difficulty": 3,
 		"options": ["1918", "1914", "1916", "1920"],
-		"correct_answer": "1918"
+		"correct_answer": 0
 	},
-
 	{
 		"question": "من هو الرسام الذي رسم لوحتي العشاء الأخير وسقوط آدم؟",
 		"category": 1,
 		"difficulty": 3,
 		"options": ["ليوناردو دافنشي", "رافائيل", "فريدا كاهلو", "فان جوخ"],
-		"correct_answer": "ليوناردو دافنشي"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو أول رئيس لجنوب أفريقيا بعد الفصل العنصري؟",
 		"category": 3,
 		"difficulty": 2,
 		"options": ["نيلسون مانديلا", "تابو مبيكي", "ثابو مبيكي", "كيث لاكونيا"],
-		"correct_answer": "نيلسون مانديلا"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هي اللاعبة التي حصلت على أكبر عدد من البطولات في تنس السيدات؟",
 		"category": 4,
 		"difficulty": 2,
 		"options": ["سيرينا وليامز", "ستيفي غراف", "مارتينا هينجيس", "هيلين ويلز"],
-		"correct_answer": "مارتينا هينجيس"
+		"correct_answer": 2
 	},
 	{
 		"question": "من هو بطل العاب الفيديو الشهير سوبر ماريو؟",
 		"category": 6,
 		"difficulty": 3,
 		"options": ["لويجي", "يوشي", "واريو", "ماريو"],
-		"correct_answer": "ماريو"
+		"correct_answer": 3
 	},
 	{
 		"question": "من هي الممثلة التي قامت بدور فيولا ديفيس في فيلم المحامي الأعمى؟",
 		"category": 5,
 		"difficulty": 2,
 		"options": ["هالي بيري", "أوبرا وينفري", "جينيفر هدسون", "ساندرا بولوك"],
-		"correct_answer": "أوبرا وينفري"
+		"correct_answer": 1
 	},
 
 	{
 		"question": "من هو الرئيس الأمريكي الذي فاز بجائزة نوبل للسلام عام 2009؟",
 		"category": 1,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["جورج بوش", "باراك أوباما", "دونالد ترامب", "هيلاري كلينتون"],
-		"correct_answer": "باراك أوباما"
+		"correct_answer": 1
 	},
 	{
 		"question": "من هو أول رئيس لجمهورية مصر العربية؟",
@@ -93,49 +93,49 @@
 			"أنور السادات",
 			"محمد أنور السادات"
 		],
-		"correct_answer": "محمد نجيب"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هو الرقم الذي يلي العدد 4 في تسلسل الأرقام الطبيعية؟",
 		"category": 4,
-		"difficulty": 3,
+		"difficulty": 1,
 		"options": ["5", "6", "7", "8"],
-		"correct_answer": "5"
+		"correct_answer": 0
 	},
 	{
 		"question": "فيلم Jaws الذي صدر عام 1975 يتحدث عن ماذا؟",
 		"category": 5,
-		"difficulty": 2,
+		"difficulty": 1,
 		"options": ["قرش", "حوت", "دلافين", "سمكة"],
-		"correct_answer": "قرش"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هو العنصر الأول في الجدول الدوري؟",
 		"category": 1,
 		"difficulty": 3,
 		"options": ["الهيدروجين", "الأكسجين", "الكربون", "الزئبق"],
-		"correct_answer": "الهيدروجين"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي العاصمة الأسترالية؟",
 		"category": 1,
 		"difficulty": 2,
 		"options": ["سدني", "ملبورن", "بريسبان", "كانبيرا"],
-		"correct_answer": "كانبيرا"
+		"correct_answer": 3
 	},
 	{
 		"question": "من هو مؤسس الإمبراطورية الرومانية؟",
 		"category": 3,
 		"difficulty": 3,
 		"options": ["جوليوس قيصر", "أغسطس", "قسطنطين الأكبر", "ألكسندر الكبير"],
-		"correct_answer": "أغسطس"
+		"correct_answer": 1
 	},
 	{
 		"question": "ما هو الفريق الحائز على أكبر عدد من بطولات دوري أبطال أوروبا؟",
 		"category": 4,
 		"difficulty": 3,
 		"options": ["برشلونة", "ريال مدريد", "ليفربول", "ميلان"],
-		"correct_answer": "ريال مدريد"
+		"correct_answer": 1
 	},
 	{
 		"question": "في أي فيلم ظهر الممثل أنتوني هوبكنز في دور هانيبال ليكتر؟",
@@ -147,22 +147,23 @@
 			"صمت الحملان",
 			"جودفيلّا"
 		],
-		"correct_answer": "صمت الحملان"
+		"correct_answer": 2
 	},
 	{
 		"category": 2,
 		"difficulty": 3,
 		"question": "ما هو الاسم الذي يطلق على الصوم الذي يتم يوم عاشوراء؟",
-		"options": ["صوم داود", "صوم الأحد", "صوم الاثنين", "صوم يوم الأربعاء"],
-		"correct_answer": "صوم عاشوراء"
+		"options": ["صوم داود", "صوم الأحد", "صوم الاثنين", "صوم عاشوراء"],
+		"correct_answer": 3
 	},
 	{
 		"category": 2,
 		"difficulty": 3,
 		"question": "ما هي الحرمة الأكبر في الإسلام؟",
 		"options": ["قتل الإنسان", "السرقة", "الزنا", "شرب الخمر"],
-		"correct_answer": "قتل الإنسان"
+		"correct_answer": 0
 	},
+
 	{
 		"question": "من هو صاحب كتاب الحديث الشريف؟",
 		"category": 2,
@@ -173,7 +174,7 @@
 			"أبو داود السجستاني",
 			"أحمد بن حنبل"
 		],
-		"correct_answer": "محمد بن إسماعيل البخاري"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو أول مسلم أسلم في السجود؟",
@@ -185,28 +186,28 @@
 			"عثمان بن عفان",
 			"علي بن أبي طالب"
 		],
-		"correct_answer": "عمر بن الخطاب"
+		"correct_answer": 1
 	},
 	{
 		"question": "ما هي أسماء الأنبياء الذين ذكروا بأسمائهم في القرآن الكريم؟",
 		"category": 2,
 		"difficulty": 3,
 		"options": ["25", "27", "28", "29"],
-		"correct_answer": "25"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو صاحب الكتاب الشهير القانون؟",
 		"category": 1,
 		"difficulty": 3,
 		"options": ["أبو حنيفة النعمان", "مالك بن أنس", "الشافعي", "أحمد بن حنبل"],
-		"correct_answer": "أبو حنيفة النعمان"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هو عدد الأسنان في فم الإنسان البالغ؟",
 		"category": 1,
 		"difficulty": 3,
 		"options": ["30", "28", "32", "36"],
-		"correct_answer": "32"
+		"correct_answer": 2
 	},
 	{
 		"question": "ما هي العاصمة الأكثر ارتفاعا في العالم؟",
@@ -218,7 +219,7 @@
 			"لهاسا، تبت",
 			"كويتو، الإكوادور"
 		],
-		"correct_answer": "لاباز، بوليفيا"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو الفنان الذي رسم لوحة الموناليزا؟",
@@ -230,28 +231,29 @@
 			"فريدا كالو",
 			"فينسنت فان جوخ"
 		],
-		"correct_answer": "ليوناردو دا فينشي"
+		"correct_answer": 0
 	},
+
 	{
 		"question": "من هو الشخص الوحيد الذي فاز بجائزة نوبل في الفيزياء والكيمياء؟",
 		"category": 1,
 		"difficulty": 3,
 		"options": ["ريتشارد فايمان", "ماري كوري", "لينوس بولينغ", "ماكس بلانك"],
-		"correct_answer": "ماري كوري"
+		"correct_answer": 1
 	},
 	{
 		"question": "في أي عام بدأت الحرب العالمية الثانية؟",
 		"category": 3,
 		"difficulty": 3,
 		"options": ["1940", "1939", "1941", "1942"],
-		"correct_answer": "1939"
+		"correct_answer": 1
 	},
 	{
 		"question": "متى انتهت الحرب العالمية الأولى؟",
 		"category": 3,
 		"difficulty": 2,
 		"options": ["1914", "1918", "1922", "1926"],
-		"correct_answer": "1918"
+		"correct_answer": 1
 	},
 	{
 		"question": "ما هي الثورة التي وقعت في فرنسا في القرن الثامن عشر؟",
@@ -263,26 +265,26 @@
 			"الثورة الفرنسية",
 			"الثورة الروسية"
 		],
-		"correct_answer": "الثورة الفرنسية"
+		"correct_answer": 2
 	},
 	{
 		"question": "من هو الزعيم السوفيتي الذي تولى السلطة بعد وفاة ستالين؟",
 		"category": 3,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": [
 			"جورجي مالنكوف",
 			"ليونيد بريجنيف",
 			"نيكيتا خروتشيف",
 			"ميخائيل غورباتشوف"
 		],
-		"correct_answer": "نيكيتا خروتشيف"
+		"correct_answer": 2
 	},
 	{
 		"question": "من هو الملك الذي بنى مسجد الحرام الأول؟",
 		"category": 3,
 		"difficulty": 3,
 		"options": ["سيدنا إبراهيم", "سيدنا آدم", "سيدنا إسماعيل", "سيدنا يعقوب"],
-		"correct_answer": "سيدنا إبراهيم"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو مؤسس الدولة الفاطمية في مصر والمغرب؟",
@@ -290,11 +292,11 @@
 		"difficulty": 2,
 		"options": [
 			"الإمام الشافعي",
-			"الإمام الحسين",
+			"الإمام الحس",
 			"عبد الله الطيب",
 			"الإمام الداعي"
 		],
-		"correct_answer": "الإمام الداعي"
+		"correct_answer": 3
 	},
 	{
 		"question": "متى تم تأسيس الدولة الأموية في دمشق؟",
@@ -306,89 +308,82 @@
 			"661 قبل الميلاد",
 			"750 قبل الميلاد"
 		],
-		"correct_answer": "661 ميلادية"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو السلطان الذي بنى أول مدرسة جامعية في العالم الإسلامي في المغرب؟",
 		"category": 3,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": [
 			"أبو القاسم الزياني",
 			"أبو بكر بن أبي بكر",
 			"أحمد المنصور",
 			"يوسف بن تاشفين"
 		],
-		"correct_answer": "يوسف بن تاشفين"
+		"correct_answer": 3
 	},
 	{
 		"question": "ما هي الشخصية الرئيسية في لعبة سونيك؟",
 		"category": 6,
 		"difficulty": 3,
 		"options": ["سونيك", "ماريو", "كراش", "جيمس بوند"],
-		"correct_answer": "سونيك"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي الشركة الأم للعبة Fortnite؟",
 		"category": 6,
-		"difficulty": 2,
+		"difficulty": 1,
 		"options": ["إيبك جيمز", "أكتيفجن", "إيديا", "إبيك جيمز"],
-		"correct_answer": "إيبك جيمز"
+		"correct_answer": 3
 	},
 	{
 		"question": "في لعبة GTA V، ما هي المدينة التي تدور فيها الأحداث؟",
 		"category": 6,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["لوس أنجلوس", "ميامي", "نيويورك", "لاس فيغاس"],
-		"correct_answer": "لوس أنجلوس"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي اللعبة التي أطلقتها شركة نينتندو في عام 1985 والتي أصبحت لعبة ثنائية الأبعاد مشهورة في جميع أنحاء العالم؟",
 		"category": 6,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["ماريو", "سونيك", "كراش", "بوكيمون"],
-		"correct_answer": "ماريو"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو الممثل الذي لعب دور الجوكر في فيلم The Dark Knight ؟",
 		"category": 5,
-		"difficulty": 2,
+		"difficulty": 1,
 		"options": ["جاك نيكلسون", "جيمس فرانكو", "هيث ليدجر", "كريستيان بيل"],
-		"correct_answer": "هيث ليدجر"
+		"correct_answer": 2
 	},
 	{
 		"question": "من هي الممثلة التي لعبت دور البطولة في فيلم Wonder Woman 1984 ؟",
 		"category": 5,
 		"difficulty": 3,
 		"options": ["جال جادوت", "سكارليت جوهانسون", "إيما واتسون", "مارجوت روبي"],
-		"correct_answer": "جال جادوت"
+		"correct_answer": 0
 	},
 	{
 		"question": "في أي عام صدر فيلم Avengers: Endgame ؟",
 		"category": 5,
 		"difficulty": 3,
 		"options": ["2017", "2018", "2019", "2020"],
-		"correct_answer": "2019"
+		"correct_answer": 2
 	},
 	{
 		"question": "ما هو عدد سور القرآن الكريم؟",
 		"category": 2,
 		"difficulty": 3,
 		"options": ["114", "100", "120", "140"],
-		"correct_answer": "114"
-	},
-	{
-		"question": "كان من خلق النبي صلى الله عليه وسلم؟",
-		"category": 2,
-		"difficulty": 2,
-		"options": ["الصدق", "الغضب", "عدم التواضع", "عدم الصدق"],
-		"correct_answer": "الصدق"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما اسم والد النبي صلى الله عليه وسلم؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["عبدالله", "محمد", "إبراهيم", "عبد مناف"],
-		"correct_answer": "عبدالله"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما اسم والدة النبي صلى الله عليه وسلم؟",
@@ -400,7 +395,7 @@
 			"فاطمة بنت حبيش",
 			"خديجة بنت خويلد"
 		],
-		"correct_answer": "آمنة بنت وهب"
+		"correct_answer": 0
 	},
 	{
 		"question": "في أي يوم ولد النبي صلى الله عليه وسلم؟",
@@ -412,14 +407,14 @@
 			"في الثاني من محرم",
 			"في السابع من شوال"
 		],
-		"correct_answer": "في الثاني عشر من ربيع الأول"
+		"correct_answer": 0
 	},
 	{
 		"question": "كم كان عمر النبي عندما توفي والده؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["كان جنينا في بطن أمه", "كان رضيعا", "كان طفلا", "كان شابا"],
-		"correct_answer": "كان جنينا في بطن أمه"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما اسم زوجة النبي صلى الله عليه وسلم؟",
@@ -431,52 +426,53 @@
 			"مريم بنت الزبير",
 			"الخنساء"
 		],
-		"correct_answer": "خديجة بنت خويلد"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما اسم الغار الذي كان النبي يعبد ربه فيه؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["غار حراء", "غار ثور", "غار علقمة", "غار تميم"],
-		"correct_answer": "غار حراء"
+		"correct_answer": 0
 	},
 	{
 		"question": "كم كان عمر النبي عندما نزل عليه الوحي؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["41 سنة", "50 سنة", "60 سنة", "44 سنة"],
-		"correct_answer": "41 سنة"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما اسم ملك الوحي الذي نزل على النبي في الغار؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["جبريل", "ميكائيل", "إسرافيل", "ملك الجبال"],
-		"correct_answer": "جبريل"
+		"correct_answer": 0
 	},
+
 	{
 		"question": "من أول من أسلم من النساء؟",
 		"category": 2,
-		"difficulty": 2,
+		"difficulty": 1,
 		"options": [
 			"خديجة بنت خويلد",
 			"فاطمة بنت قبيس",
 			"عائشة بنت أبي بكر",
 			"زينب أم المساكين"
 		],
-		"correct_answer": "خديجة بنت خويلد"
+		"correct_answer": 0
 	},
 	{
 		"question": "من أول من أسلم من الصبيان؟",
 		"category": 2,
-		"difficulty": 2,
+		"difficulty": 1,
 		"options": [
 			"علي بن أبي طالب",
 			"زيد بن حارثة",
 			"عبدالله بن عمر",
 			"عبدالله بن عباس"
 		],
-		"correct_answer": "علي بن أبي طالب"
+		"correct_answer": 0
 	},
 	{
 		"question": "من أول من أسلم من الرجال؟",
@@ -488,191 +484,191 @@
 			"عبدالله بن مسعود",
 			"عمر بن الخطاب"
 		],
-		"correct_answer": "أبو بكر الصديق"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما اسم القبيلة التي حاربت النبي صلى الله عليه وسلم؟",
 		"category": 1,
 		"difficulty": 3,
 		"options": ["قريش", "بنو تميم", "ثقيف", "بنو قيس"],
-		"correct_answer": "قريش"
+		"correct_answer": 0
 	},
 	{
 		"question": "أين كان يعيش النبي صلى الله عليه وسلم؟",
 		"category": 1,
 		"difficulty": 3,
 		"options": ["مكة المكرمة", "العراق", "الشام", "اليمن"],
-		"correct_answer": "مكة المكرمة"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما اسم عمَ النبي الذي لقب بأسد الله؟",
 		"category": 1,
 		"difficulty": 3,
 		"options": ["حمزة بن عبد المطلب", "أبو لهب", "أبو طالب", "العباس"],
-		"correct_answer": "حمزة بن عبد المطلب"
+		"correct_answer": 0
 	},
 	{
 		"question": "إلى أي بلاد هاجر المسلمون أول مرة؟",
 		"category": 1,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["الحبشة", "اليمن ", "الشام", "نجد"],
-		"correct_answer": "الحبشة"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما اسم الصحابي الذي قاد المسلمين إلى الحبشة؟",
 		"category": 1,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": [
 			"جعفر بن أبي طالب",
 			"حذيفة بن اليمان",
 			"أبو عبيدة بن الجراح",
 			"سعد بن معاذ"
 		],
-		"correct_answer": "جعفر بن أبي طالب"
+		"correct_answer": 0
 	},
 	{
 		"question": "ماذا كان اسم ملك الحبشة؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["النجاشي", "كسرى", "قيصر", "النمرود"],
-		"correct_answer": "النجاشي"
+		"correct_answer": 0
 	},
 	{
 		"question": "تقع الكعبة المشرفة في ...",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 1,
 		"options": ["مكة المكرمة", "خيبر", "الشام", "يثرب"],
-		"correct_answer": "مكة المكرمة"
+		"correct_answer": 0
 	},
 	{
 		"question": "يقع المسجد الأقصى في ...",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["القدس", "الطائف ", "يثرب", "اليمن"],
-		"correct_answer": "القدس"
+		"correct_answer": 0
 	},
 	{
 		"question": "القدس عاصمة أي من الدول الآتية؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 1,
 		"options": ["فلسطين", "العراق", "اليمن", "لبنان"],
-		"correct_answer": "فلسطين"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هما الرحلتان العظيمتان اللتان قام بهما الرسول؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["الاسراء والمعراج", "حطين", "عين جالوت", "أحد"],
-		"correct_answer": "الاسراء والمعراج"
+		"correct_answer": 0
 	},
 	{
 		"question": "ماذا فرض الله تعالى في ليلة الاسراء والمعراج؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["الصلوات الخمس", "صوم رمضان", "حج البيت", "الزكاة"],
-		"correct_answer": "الصلوات الخمس"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما اسم أول بيعة للأنصار في الإسلام؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["بيعة العقبة", "بيعة نجد", "بيعة ثقيف", "بيعة الخزرج"],
-		"correct_answer": "بيعة العقبة"
+		"correct_answer": 0
 	},
 	{
 		"question": "إلى أين هاجر المسلمون بعد الحبشة؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["المدينة المنورة", "مكة", "اليمن", "الشام"],
-		"correct_answer": "المدينة المنورة"
+		"correct_answer": 0
 	},
 	{
 		"question": "ماذا كان لقب المسلمين من أهل المدينة؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["الأنصار", "المهاجرين", "الفقراء", "المسافرين"],
-		"correct_answer": "الأنصار"
+		"correct_answer": 0
 	},
 	{
 		"question": "ماذا كان لقب المسلمين القادمين من مكة؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["المهاجرين", "الانصار", "المقاتلين", "الاغنياء"],
-		"correct_answer": "المهاجرين"
+		"correct_answer": 0
 	},
 	{
 		"question": "من الصحابي الذي هاجر مع النبي إلى المدينة المنورة؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": [
 			"أبو بكر الصديق",
 			"عمر بن الخطاب",
 			"علي بن أبي طالب",
 			"عثمان بن عفان"
 		],
-		"correct_answer": "أبو بكر الصديق"
+		"correct_answer": 0
 	},
 	{
 		"question": "من كان يسكن في المدينة بجانب المسلمين؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["اليهود", "الروم", "الفرس", "النصارى"],
-		"correct_answer": "اليهود"
+		"correct_answer": 0
 	},
 	{
 		"question": "ماذا فعل النبي بعد المؤخاة بين المسلمين؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": [
 			"أقام معاهدة مع اليهود",
 			"حارب اليهود",
 			"دعى الناس للطعام",
 			"نصب نفسه ملكا"
 		],
-		"correct_answer": "أقام معاهدة مع اليهود"
+		"correct_answer": 0
 	},
 	{
 		"question": "في أي سنة بعد الهجرة فرض الله صيام رمضان؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 1,
 		"options": [
 			"السنة الثانية",
 			"السنة الأولى",
 			"السنة الخامسة",
 			"السنة الرابعة"
 		],
-		"correct_answer": "السنة الثانية"
+		"correct_answer": 0
 	},
 	{
 		"question": "أول سرية في الاسلام كانت بقيادة من ...",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["عبدالله بن جحش", "ابن مسعود", "ابو عبيدة", "خالد بن الوليد"],
-		"correct_answer": "عبدالله بن جحش"
+		"correct_answer": 0
 	},
 	{
 		"question": "ماذا كان اسم رأس المنافقين في المدينة؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": [
 			"عبدالله بن أبي سلول",
 			"عبدالله بن سلام",
 			"ولعان الأعمى",
 			"سعيد المصلوب"
 		],
-		"correct_answer": "عبدالله بن أبي سلول"
+		"correct_answer": 0
 	},
 	{
 		"question": "ماذا كان اسم ـول معركة بين المسلمين والمشركين؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": [
 			"معركة بدر",
 			"معركة ذات السلاسل",
 			"معركة القادسية",
 			"معركة أحد"
 		],
-		"correct_answer": "معركة بدر"
+		"correct_answer": 0
 	},
 	{
 		"question": "في أي سنة كانت معركة بدر الكبرى؟",
@@ -684,21 +680,21 @@
 			"السنة السابعة",
 			"السنة الرابعة"
 		],
-		"correct_answer": "السنة الثانية"
+		"correct_answer": 0
 	},
 	{
 		"question": "كم كان عدد المسلمين في معركة بدر؟",
 		"category": 2,
-		"difficulty": 2,
+		"difficulty": 1,
 		"options": ["313 رجلا", "500 رجل", "1000 رجل", "800 رجل"],
-		"correct_answer": "313 رجلا"
+		"correct_answer": 0
 	},
 	{
 		"question": "كم كان عدد المشركين في معركة بدر؟",
 		"category": 2,
-		"difficulty": 2,
+		"difficulty": 1,
 		"options": ["1000 رجل", "2000 رجل", "1500 رجل", "900 رجل"],
-		"correct_answer": "1000 رجل"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما اسم الصحابي الذي اقترح مكان المعركة في بدر؟",
@@ -710,35 +706,35 @@
 			"أبو عبيدة بن الجراح",
 			"خالد بن الوليد"
 		],
-		"correct_answer": "الحباب بن المنذر"
+		"correct_answer": 0
 	},
 	{
 		"question": "من انتصر في معركة بدر؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["المسلمون", "المشركون", "الشيطان", "الباطل"],
-		"correct_answer": "المسلمون"
+		"correct_answer": 0
 	},
 	{
 		"question": "كم عدد أركان الإسلام؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["خمسة أركان", "ركنان", "ثلاثة أركان", "ركن واحد"],
-		"correct_answer": "خمسة أركان"
+		"correct_answer": 0
 	},
 	{
 		"question": "كان من خلق النبي صلى الله عليه وسلم؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["الأمانة ", "الخيانة", "الغش", "التكبر"],
-		"correct_answer": "الأمانة "
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو الصحابي الذي لقب بالصديق؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["أبو بكر", "عثمان بن عفان", "أبو عبيدة بن الجراح", "أبو هريرة"],
-		"correct_answer": "أبو بكر"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو الصحابي الذي لقب بالفاروق؟",
@@ -750,7 +746,7 @@
 			"عبدالله بن الزبير",
 			"خالد بن الوليد"
 		],
-		"correct_answer": "عمر بن الخطاب"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو الصحابي الذي لقب بذي النورين؟",
@@ -762,35 +758,35 @@
 			"حذيفة بن اليمان",
 			"أبو صخر"
 		],
-		"correct_answer": "عثمان بن عفان"
+		"correct_answer": 0
 	},
 	{
 		"question": "كم حجة حج النبي صلى الله عليه وسلم؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 1,
 		"options": ["حجة واحدة", "حجتان", "ثلاث حجات", "خمس حجات"],
-		"correct_answer": "حجة واحدة"
+		"correct_answer": 0
 	},
 	{
 		"question": "كم رمضان صام النبي صلى الله عليه وسلم؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["تسع مرات", "ثلاث مرات", "خمس مرات", "مرتان"],
-		"correct_answer": "تسع مرات"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي كنية الرسول صلى الله عليه وسلم؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 1,
 		"options": ["أبو القاسم", "أبو ابراهيم", "أبو يوسف", "أبو اسماعيل"],
-		"correct_answer": "أبو القاسم"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما آخر غزوة غزاها الرسول؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["غزوة تبوك", "غزوة الخندق", "غزوة بدر", "غزوة ذات السلاسل"],
-		"correct_answer": "غزوة تبوك"
+		"correct_answer": 0
 	},
 	{
 		"question": "متى توفي الرسول صلى الله عليه وسلم؟",
@@ -802,14 +798,14 @@
 			"شهر محرم عام 8 للهجرة",
 			"شهر شعبان عام 20 للهجرة"
 		],
-		"correct_answer": "شهر ربيع الاول عام 11 للهجرة"
+		"correct_answer": 0
 	},
 	{
 		"question": "كم كان عمره صلى الله عليه وسلم عند وفاته؟",
 		"category": 2,
-		"difficulty": 3,
+		"difficulty": 1,
 		"options": ["63 سنة", "64 سنة", "70 سنة", "55 سنة"],
-		"correct_answer": "63 سنة"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هو اسم أول رئيس لتونس بعد الاستقلال؟",
@@ -821,14 +817,14 @@
 			"محمد الناصر",
 			"الشاذلي بن جديد"
 		],
-		"correct_answer": "حبيب بورقيبة"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو الشاعر العربي الذي يلقب بـ 'شاعر الشرق الأوسط'؟",
 		"category": 1,
 		"difficulty": 2,
 		"options": ["نزار قباني", "أحمد شوقي", "غازي القصيبي", "نجيب محفوظ"],
-		"correct_answer": "نزار قباني"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هو اسم أول رئيس للجزائر بعد الاستقلال؟",
@@ -840,7 +836,7 @@
 			"هواري بومدين",
 			"عبد العزيز بوتفليقة"
 		],
-		"correct_answer": "أحمد بن بلة"
+		"correct_answer": 1
 	},
 	{
 		"question": "من هو مؤسس الدولة الفاطمية في مصر؟",
@@ -852,7 +848,7 @@
 			"عمر المختار",
 			"يوسف بن تاشفين"
 		],
-		"correct_answer": "المعز لدين الله الفاطمي"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو مؤسس الدولة العباسية في العراق؟",
@@ -864,14 +860,14 @@
 			"الخليفة العباسي أبو العباس السفاح",
 			"الخليفة العباسي أبو العباس السلطان"
 		],
-		"correct_answer": "الخليفة العباسي أبو العباس السفاح"
+		"correct_answer": 2
 	},
 	{
 		"question": "من هو الملك الذي بنى قصر الحمراء في غرناطة؟",
 		"category": 3,
 		"difficulty": 1,
 		"options": ["الملك فهد", "الملك عبد الله", "الملك فيصل", "الملك بدر"],
-		"correct_answer": "الملك بدر"
+		"correct_answer": 3
 	},
 	{
 		"question": "من هو مؤسس الدولة الصفوية في إيران؟",
@@ -883,7 +879,7 @@
 			"فردوسي",
 			"الحسن الصباح"
 		],
-		"correct_answer": "إسماعيل الصفوي"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي الحرب التي دارت بين الصليبيين والمسلمين في القرن الثاني عشر؟",
@@ -895,70 +891,63 @@
 			"حروب الصليبين",
 			"حرب الحريريين"
 		],
-		"correct_answer": "حروب الصليبين"
+		"correct_answer": 2
 	},
 	{
 		"question": "في أي عام أقيمت بطولة كأس العالم لكرة القدم لأول مرة؟",
 		"category": 4,
 		"difficulty": 1,
 		"options": ["1926", "1930", "1934", "1938"],
-		"correct_answer": "1930"
+		"correct_answer": 1
 	},
 	{
 		"question": "ما هي الدولة التي فازت بكأس العالم لكرة القدم في عام 2018؟",
 		"category": 4,
 		"difficulty": 1,
 		"options": ["فرنسا", "البرازيل", "ألمانيا", "إسبانيا"],
-		"correct_answer": "فرنسا"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هو اللاعب الذي سجل أكبر عدد من الأهداف في تاريخ بطولة كأس العالم لكرة القدم؟",
 		"category": 4,
 		"difficulty": 2,
 		"options": ["بيليه", "ميروسلاف كلوزه", "جاري لينيكر", "دييغو مارادونا"],
-		"correct_answer": "ميروسلاف كلوزه"
+		"correct_answer": 1
 	},
 	{
 		"question": "في أي عام حصلت البرازيل على أول بطولة لكأس العالم لكرة القدم؟",
 		"category": 4,
 		"difficulty": 2,
 		"options": ["1954", "1958", "1962", "1966"],
-		"correct_answer": "1958"
-	},
-	{
-		"question": "ما هي الدولة التي تنظم بطولة كأس العالم لكرة القدم في عام 2022؟",
-		"category": 4,
-		"difficulty": 2,
-		"options": ["الإمارات العربية المتحدة", "قطر", "السعودية", "الكويت"],
-		"correct_answer": "قطر"
+		"correct_answer": 1
 	},
 	{
 		"question": "في أي عام أقيمت بطولة كأس العالم لكرة القدم في المكسيك؟",
 		"category": 4,
-		"difficulty": 3,
+		"difficulty": 2,
 		"options": ["1966", "1970", "1974", "1978"],
-		"correct_answer": "1970"
+		"correct_answer": 1
 	},
 	{
 		"question": "ما هي المدة الزمنية لشهر رمضان؟",
 		"category": 2,
 		"difficulty": 1,
 		"options": ["29 يوماً", "30 يوماً", "31 يوماً", "28 يوماً"],
-		"correct_answer": "29 يوماً"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي الوجبة التي يتم تناولها لإفطار رمضان؟",
 		"category": 2,
 		"difficulty": 1,
 		"options": ["السحور", "الإفطار", "الغداء", "العشاء"],
-		"correct_answer": "الإفطار"
+		"correct_answer": 1
 	},
 	{
 		"question": "ما هي الصلاة التي يؤديها المسلمون خلال شهر رمضان؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["الفجر", "الظهر", "العصر", "التراويح"],
-		"correct_answer": "التراويح"
+		"correct_answer": 3
 	},
 	{
 		"question": "ما هو اسم الصوم الذي يصومه المسلمون في رمضان؟",
@@ -970,14 +959,14 @@
 			"الصوم الفرضي",
 			"الصوم التطوعي"
 		],
-		"correct_answer": "الصوم الكامل"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي ليلة القدر؟",
 		"category": 2,
 		"difficulty": 3,
 		"options": ["27 رمضان", "21 رمضان", "23 رمضان", "25 رمضان"],
-		"correct_answer": "27 رمضان"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي عبادة الاعتكاف؟",
@@ -989,21 +978,21 @@
 			"العزلة في المسجد",
 			"الصلاة الجماعية"
 		],
-		"correct_answer": "العزلة في المسجد"
+		"correct_answer": 2
 	},
 	{
 		"question": "ما هو اسم الفيلم الذي حصل على جائزة أوسكار أفضل فيلم عام 2020؟",
 		"category": 5,
 		"difficulty": 2,
 		"options": ["1917", "جوكر", "باراسايت", "ذا إيريشمان"],
-		"correct_answer": "باراسايت"
+		"correct_answer": 2
 	},
 	{
 		"question": "ما هي الشخصية التي يجسدها النجم سيلفستر ستالون في فيلم 'روكي'؟",
 		"category": 5,
 		"difficulty": 1,
 		"options": ["روكي بالبوا", "جون رامبو", "بارني روس", "أدريان بينينو"],
-		"correct_answer": "روكي بالبوا"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو المخرج الشهير الذي أخرج فيلم 'موناليزا سمايل'؟",
@@ -1015,235 +1004,230 @@
 			"ستانلي كوبريك",
 			"مايكل بيه"
 		],
-		"correct_answer": "ستانلي كوبريك"
+		"correct_answer": 2
 	},
 	{
 		"question": "ما هو عنوان الجزء الأول من سلسلة أفلام 'ستار وورز'؟",
 		"category": 5,
 		"difficulty": 1,
 		"options": ["سكاي ووكر", "العودة إلى المستقبل", "ماتريكس", "الحرب النجمية"],
-		"correct_answer": "الحرب النجمية"
+		"correct_answer": 3
 	},
 	{
 		"question": "من هو الممثل الذي يجسد دور 'باتمان' في فيلم 'ذا دارك نايت'؟",
 		"category": 5,
 		"difficulty": 2,
 		"options": ["روبرت داوني جونيور", "كريستيان بيل", "بن أفليك", "توم هاردي"],
-		"correct_answer": "بن أفليك"
+		"correct_answer": 2
 	},
 	{
 		"question": "أين توجد جزر القمر؟",
 		"category": 7,
 		"difficulty": 1,
 		"options": ["المحيط الأطلسي", "المحيط الهندي", "المحيط الهادي"],
-		"correct_answer": "المحيط الهندي"
+		"correct_answer": 1
 	},
 	{
 		"question": "ماذا يحد فلسطين من الشرق؟",
 		"category": 7,
 		"difficulty": 2,
 		"options": ["الأردن", "مصر", "لبنان"],
-		"correct_answer": "الأردن"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي أكبر دولة من حيث المساحة في أفريقيا؟",
 		"category": 7,
 		"difficulty": 1,
 		"options": ["السودان", "مصر", "موريتانيا"],
-		"correct_answer": "دولة السودان"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هي عاصمة السنغال؟",
 		"category": 7,
 		"difficulty": 3,
 		"options": ["داكار", "أبيدجان", "سكوبيا"],
-		"correct_answer": "داكار"
+		"correct_answer": 0
 	},
 	{
 		"question": "من هي المدينة الأوروبية التي يطلق عليها مدينة الضباب؟",
 		"category": 7,
 		"difficulty": 2,
 		"options": ["باريس", "لندن", "نيويورك"],
-		"correct_answer": "لندن"
+		"correct_answer": 1
 	},
 	{
 		"question": "ما هي الدولة التي شاهدت التلفزيون لأول مرة؟",
 		"category": 7,
 		"difficulty": 3,
 		"options": ["أوروبا", "مصر", "أمريكا"],
-		"correct_answer": "أمريكا"
+		"correct_answer": 2
 	},
 	{
 		"question": "أين كان أول مكان اخترع فيه البارود؟",
 		"category": 7,
 		"difficulty": 2,
 		"options": ["الروم", "العرب", "الصين"],
-		"correct_answer": "الصين"
+		"correct_answer": 2
 	},
-
 	{
 		"question": "أين يوجد أكبر سوق للتمور في السعودية؟",
 		"category": 3,
 		"difficulty": 2,
 		"options": ["عنيزة", "عكاظ", "بريدة"],
-		"correct_answer": "بريدة"
+		"correct_answer": 2
 	},
 	{
 		"question": "أي من الشعوب الذين وضعوا الحروف الهجائية؟",
 		"category": 7,
 		"difficulty": 3,
 		"options": ["العرب", "الأغريق", "الفينيقيين"],
-		"correct_answer": "الفينيقيين"
+		"correct_answer": 2
 	},
 	{
 		"question": "ما هي عاصمة ألبانيا؟",
 		"category": 7,
 		"difficulty": 1,
 		"options": ["تيرانا", "ساوتومي", "كتمندو"],
-		"correct_answer": "تيرانا"
+		"correct_answer": 0
 	},
 	{
 		"question": "أين توجد صخرة إيرس؟",
 		"category": 7,
 		"difficulty": 2,
 		"options": ["روسيا", "استراليا", "البرازيل"],
-		"correct_answer": "في استراليا"
+		"correct_answer": 1
 	},
 	{
 		"question": "ماذا يعني اسم لوس أنجلوس؟",
 		"category": 7,
 		"difficulty": 1,
 		"options": ["مدينة الملائكة", "مدينة الكنوز", "مدينة الحدائق"],
-		"correct_answer": "مدينة الملائكة"
+		"correct_answer": 0
 	},
 	{
 		"question": "ما هو اليوم المقصود به يوم الفرقان الذي ذكر في كتاب الله تعالى؟",
 		"category": 2,
 		"difficulty": 1,
 		"options": ["فتح مكة", "غزوة تبوك", "غزوة بدر"],
-		"correct_answer": "غزوة بدر"
+		"correct_answer": 2
 	},
-
 	{
 		"question": "ما هي أرض مهد الديانات السماوية التي أقسم بها الله عز وجل؟",
 		"category": 2,
 		"difficulty": 1,
 		"options": ["الحجاز", "فلسطين", "مصر"],
-		"correct_answer": "فلسطين"
+		"correct_answer": 1
 	},
-
 	{
 		"question": "ما المقصود بـ الأوتاد الذي ذكره الله سبحانه وتعالى في سورة الفجر؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["الجبال", "الأهرام", "القصور"],
-		"correct_answer": "الأهرام"
+		"correct_answer": 1
 	},
-
 	{
 		"question": "ما هي أول غزوة للمسلمين؟",
 		"category": 2,
 		"difficulty": 1,
 		"options": ["غزوة تبوك", "غزوة مؤتة", "غزوة ودان"],
-		"correct_answer": "غزوة ودان"
+		"correct_answer": 2
 	},
-
 	{
 		"question": "أين تم تصنيع أول كسوة للكعبة؟",
 		"category": 2,
 		"difficulty": 2,
 		"options": ["السعودية", "مصر", "فلسطين"],
-		"correct_answer": "مصر"
-	},
-	{
-		"question": "تعتبر مدينة البتراء من إحدى العجائب السبع فأين تقع؟",
-		"category": 1,
-		"difficulty": 2,
-		"options": ["بغداد", "فلسطين", "الأردن"],
-		"correct_answer": "الأردن"
-	},
-	{
-		"question": "في أي عام تم اكتشاف أمريكا؟",
-		"category": 1,
-		"difficulty": 3,
-		"options": ["1491", "1492", "1493"],
-		"correct_answer": "1491."
-	},
-	{
-		"question": "من الذي اكتشف القطب الشمالي؟",
-		"category": 1,
-		"difficulty": 3,
-		"options": ["ماجلان", "المندسين", "روبرت بيري"],
-		"correct_answer": "روبرت بيري."
-	},
-	{
-		"question": "أول صحابي قام بتحية الرسول صلى الله عليه وسلم بتحية الإسلام؟",
-		"category": 2,
-		"difficulty": 2,
-		"options": ["أبو بكر الصديق", "أبو أيوب الأنصاري", "أبو ذر الغفاري"],
-		"correct_answer": "أبو ذر الغفاري."
-	},
-	{
-		"question": "ما أسم البحر الذي أطلق عليه بحر القلزم؟",
-		"category": 1,
-		"difficulty": 2,
-		"options": ["البحر العربي", "البحر الأحمر", "البحر الأسود"],
-		"correct_answer": "البحر العربي."
-	},
-	{
-		"question": "من هو العالم الذي قام باختراع التليفون؟",
-		"category": 1,
-		"difficulty": 3,
-		"options": ["ألكسندر غراهام بيل", "جوزيف برتلي", "فلهلم رونتجن"],
-		"correct_answer": "ألكسندر غراهام بيل"
+		"correct_answer": 1
 	},
 	{
 		"question": "متى قامت الحرب العالمية الثانية؟",
 		"category": 1,
 		"difficulty": 2,
 		"options": ["١٩٤٠", "١٩٣٩", "١٩٣٨"],
-		"correct_answer": "١٩٣٩"
+		"correct_answer": 1
 	},
 	{
 		"question": "من هو أول من أبحر حول العالم؟",
 		"category": 1,
 		"difficulty": 2,
 		"options": ["فرانسيس دريك", "كولومبوس", "ماجلان"],
-		"correct_answer": "ماجلان"
+		"correct_answer": 2
 	},
 	{
 		"question": "ما اسم الدولة التي كانت على حياد في الحرب العالمية الثانية",
 		"category": 1,
 		"difficulty": 2,
 		"options": ["ألمانيا", "النرويج", "إيطاليا"],
-		"correct_answer": "الترويج."
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو الفرعون المصري الذي آمن بفكرة الإله الواحد؟",
 		"category": 1,
 		"difficulty": 1,
 		"options": ["توت عنخ آمون", "أخناتون", "ونفرتيتي"],
-		"correct_answer": "أخناتون."
+		"correct_answer": 1
 	},
 	{
 		"question": "ماهي أكبر الدول الإفريقية من ناحية المساحة؟",
 		"category": 7,
 		"difficulty": 1,
 		"options": ["الجزائر", "مصر", "السودان"],
-		"correct_answer": "السودان."
+		"correct_answer": 2
 	},
 	{
 		"question": "ما هو نظام الحكم في جزر القمر الإسلامية؟",
 		"category": 1,
 		"difficulty": 1,
 		"options": ["جمهوري", "ملكي", "فيدرالي"],
-		"correct_answer": "جمهوري."
+		"correct_answer": 0
 	},
 	{
 		"question": "من هو قائد المسلمين في معركة القادسية؟",
 		"category": 2,
 		"difficulty": 1,
 		"options": ["خالد بن الوليد", "وعمرو بن العاص", "سعد بن أبي وقاص"],
-		"correct_answer": "سعد بن أبي وقاص."
+		"correct_answer": 2
+	},
+	{
+		"question": "تعتبر مدينة البتراء من إحدى العجائب السبع فأين تقع؟",
+		"category": 1,
+		"difficulty": 2,
+		"options": ["بغداد", "فلسطين", "الأردن"],
+		"correct_answer": 2
+	},
+	{
+		"question": "في أي عام تم اكتشاف أمريكا؟",
+		"category": 1,
+		"difficulty": 2,
+		"options": ["1491", "1492", "1493"],
+		"correct_answer": 0
+	},
+	{
+		"question": "من الذي اكتشف القطب الشمالي؟",
+		"category": 1,
+		"difficulty": 2,
+		"options": ["ماجلان", "المندسين", "روبرت بيري"],
+		"correct_answer": 2
+	},
+	{
+		"question": "أول صحابي قام بتحية الرسول صلى الله عليه وسلم بتحية الإسلام؟",
+		"category": 2,
+		"difficulty": 1,
+		"options": ["أبو بكر الصديق", "أبو أيوب الأنصاري", "أبو ذر الغفاري"],
+		"correct_answer": 2
+	},
+	{
+		"question": "ما أسم البحر الذي أطلق عليه بحر القلزم؟",
+		"category": 1,
+		"difficulty": 1,
+		"options": ["البحر العربي", "البحر الأحمر", "البحر الأسود"],
+		"correct_answer": 0
+	},
+	{
+		"question": "من هو العالم الذي قام باختراع التليفون؟",
+		"category": 1,
+		"difficulty": 2,
+		"options": ["ألكسندر غراهام بيل", "جوزيف برتلي", "فلهلم رونتجن"],
+		"correct_answer": 0
 	}
 ]

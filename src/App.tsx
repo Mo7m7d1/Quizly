@@ -1,6 +1,6 @@
 import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import { Footer, Navbar } from "./components";
-import { Home, About, Quiz, HomeAr, QuizAr } from "./pages";
+import { Home, About, Quiz, HomeAr, QuizAr, AnswersAr, Answers } from "./pages";
 
 export default function App() {
 	return (
@@ -14,6 +14,8 @@ export default function App() {
 						<Route path="quiz" element={<Quiz />} />
 						<Route path="homeAr" element={<HomeAr />} />
 						<Route path="quizAr" element={<QuizAr />} />
+						<Route path="answers" element={<Answers />} />
+						<Route path="answersAr" element={<AnswersAr />} />
 					</Route>
 					<Route path="/*" element={<Navigate to="/quizly" />} />
 				</Routes>
