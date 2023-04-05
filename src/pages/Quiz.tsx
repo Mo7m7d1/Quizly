@@ -120,11 +120,11 @@ export default function Quiz() {
 	return (
 		<>
 			{isLoading ? (
-				<div className="flex items-center justify-center h-screen">
+				<div className="flex items-center justify-center h-[80vh]">
 					<div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-purple-500"></div>
 				</div>
 			) : questions.length > 0 ? (
-				<div className="flex justify-center items-center h-screen">
+				<div className="flex justify-center items-center h-[80vh]">
 					{showResult ? (
 						<Result
 							score={score}

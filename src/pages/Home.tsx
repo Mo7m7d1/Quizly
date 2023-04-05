@@ -8,7 +8,7 @@ export default function Home() {
 	const [numQuestions, setNumQuestions] = useState(3);
 
 	return (
-		<div className="flex flex-col items-center justify-center h-screen bg-gray-100">
+		<div className="flex flex-col items-center justify-center h-[80vh] bg-gray-100">
 			<h1 className="text-4xl font-bold mb-12 text-center text-gray-800">
 				Welcome to{" "}
 				<span className="bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
