@@ -23,6 +23,8 @@ export default function Quiz() {
 	const navigate = useNavigate();
 	const initialTime = 15;
 	const [timer, setTimer] = useState(initialTime);
+	const [wrongAnswers, setWrongAnswers] = useState<questionType[]>([]);
+	const [selectedOptions, setSelectedOptions] = useState<number[]>([]);
 
 	const handleOptionClick = (optionIndex: number) => {
 		setSelectedOptionIndex(optionIndex);
@@ -52,7 +54,17 @@ export default function Quiz() {
 			String(questions[currentQuestionIndex].correct_answer)
 		) {
 			setScore(score + 1);
+		} else {
+			setWrongAnswers((prevWrongAnswers) => [
+				...prevWrongAnswers,
+				questions[currentQuestionIndex],
+			]);
+			setSelectedOptions((prevSelectedOptions) => [
+				...prevSelectedOptions,
+				selectedOptionIndex,
+			]);
 		}
+
 		if (currentQuestionIndex < questions.length - 1) {
 			setCurrentQuestionIndex((prevQuestionIndex) => prevQuestionIndex + 1);
 			setTimer(initialTime);
@@ -63,7 +75,14 @@ export default function Quiz() {
 	};
 
 	const handleAnswersClick = () => {
-		navigate("/quizly/answers", { state: { questions: questions } });
+		if (wrongAnswers.length === 0) return;
+
+		navigate("/quizly/answers", {
+			state: {
+				questions: wrongAnswers,
+				selectedOptions: selectedOptions,
+			},
+		});
 	};
 
 	const fetchQuestions = async () => {

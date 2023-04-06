@@ -5,6 +5,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 export default function AnswersAr() {
 	const [questions, setQuestions] = useState<questionType[]>([]);
+	const [selectedOptions, setSelectedOptions] = useState<number[]>([]);
 	const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
 	const [isLoading, setIsLoading] = useState(true);
@@ -23,8 +24,9 @@ export default function AnswersAr() {
 
 	const fetchQuestions = () => {
 		setIsLoading(false);
-		const { questions } = location.state;
+		const { questions, selectedOptions } = location.state;
 		setQuestions(questions);
+		setSelectedOptions(selectedOptions);
 	};
 
 	useEffect(() => {
@@ -53,7 +55,7 @@ export default function AnswersAr() {
 								correctOptionIndex={
 									questions[currentQuestionIndex].correct_answer
 								}
-								selectedOptionIndex={-1}
+								selectedOptionIndex={selectedOptions[currentQuestionIndex]}
 								handleOptionClick={() => {}}
 							/>
 							<NextButton

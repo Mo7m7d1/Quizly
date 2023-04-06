@@ -24,28 +24,13 @@ export default function Question({
 						}
 						${
 							correctOptionIndex === index
-								? "bg-gradient-to-r from-purple-500 to-blue-500"
+								? "bg-gradient-to-r from-green-400 to-green-300"
 								: ""
 						}
 						`}
 						onClick={() => handleOptionClick(index)}
 					>
-						<span className="text-gray-800">{decode(option)}</span>
-						{selectedOptionIndex === index && (
-							<svg
-								className="h-6 w-6 text-white ml-2"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-							>
-								<path
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth="2"
-									d="M5 13l4 4L19 7"
-								/>
-							</svg>
-						)}
+						<span className="text-gray-900">{decode(option)}</span>
 					</div>
 				))}
 			</div>
