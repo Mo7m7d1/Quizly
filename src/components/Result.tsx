@@ -1,5 +1,4 @@
 import { Button } from "@material-tailwind/react";
-import { Link } from "react-router-dom";
 import { ResultsProps } from "../types";
 
 const Result = ({
@@ -26,16 +25,18 @@ const Result = ({
 					{isAr ? "القائمة الرئيسية" : "Menu"}
 				</Button>
 			</div>
-			<div className="w-full h-4 mt-4">
-				<Button
-					size="sm"
-					variant="text"
-					onClick={onAnswers}
-					className="text-sm text-blue-500 hover:text-blue-700"
-				>
-					{isAr ? "اجابات الأسئلة" : "Question's answers"}
-				</Button>
-			</div>
+			{score < totalQuestions && (
+				<div className="w-full h-4 mt-4">
+					<Button
+						size="sm"
+						variant="text"
+						onClick={onAnswers}
+						className="text-sm text-blue-500 hover:text-blue-700"
+					>
+						{isAr ? "اجابات الأسئلة" : "Question's answers"}
+					</Button>
+				</div>
+			)}
 		</div>
 	);
 };
