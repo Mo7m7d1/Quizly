@@ -33,7 +33,7 @@ const Result = ({
 					onClick={onAnswers}
 					className="text-sm text-blue-500 hover:text-blue-700"
 				>
-					{isAr ? "اجابات الأسئلة" : "Questions answers"}
+					{isAr ? "اجابات الأسئلة" : "Question's answers"}
 				</Button>
 			</div>
 		</div>

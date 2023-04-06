@@ -7,7 +7,7 @@ import {
 	QuestionProgress,
 } from "../components/index";
 import { questionType, searchParamsType } from "../types";
-import { useLocation, useNavigate } from "react-router-dom";
+import { json, useLocation, useNavigate } from "react-router-dom";
 import { Alert } from "@material-tailwind/react";
 import getSearchParams from "../utils/getSearchParams";
 import jsonData from "../data/dataAr.json";
@@ -68,11 +68,28 @@ export default function Quiz() {
 		const { category, numQuestions, difficulty }: searchParamsType =
 			getSearchParams(location.search);
 		try {
-			const filteredData = jsonData.filter(
-				(question) =>
-					question.category === Number(category) &&
-					question.difficulty === Number(difficulty)
-			);
+			const filteredData = jsonData
+				.sort(() => Math.random() - 0.5)
+				.filter(
+					(question) =>
+						question.category === Number(category) &&
+						question.difficulty === Number(difficulty)
+				)
+				.map((question) => {
+					const { options, correct_answer, ...shuffledQuestion } = question;
+					const shuffledAnswers = options
+						.slice()
+						.sort(() => Math.random() - 0.5);
+					const shuffledCorrectAnswerIndex = shuffledAnswers.indexOf(
+						options[correct_answer]
+					);
+					return {
+						...shuffledQuestion,
+						options: shuffledAnswers,
+						correct_answer: shuffledCorrectAnswerIndex,
+					};
+				});
+
 			const selectedQuestions = filteredData.length
 				? filteredData
 						.sort(() => Math.random() - 0.5)
