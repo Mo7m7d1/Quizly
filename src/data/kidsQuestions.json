@@ -1,0 +1,124 @@
+[
+	{
+		"question": "How many sides does a triangle have?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["3", "4", "5", "6"],
+		"correct_answer": 0
+	},
+	{
+		"question": "What is the capital of France?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["New York", "Paris", "London", "Tokyo"],
+		"correct_answer": 1
+	},
+	{
+		"question": "What is the color of an apple?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Red", "Green", "Blue", "Yellow"],
+		"correct_answer": 0
+	},
+	{
+		"question": "What is the name of the biggest ocean on Earth?",
+		"category": 6,
+		"difficulty": 1,
+		"options": [
+			"Atlantic Ocean",
+			"Indian Ocean",
+			"Pacific Ocean",
+			"Arctic Ocean"
+		],
+		"correct_answer": 2
+	},
+	{
+		"question": "What is the name of the largest mammal in the world?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Giraffe", "Elephant", "Whale", "Hippopotamus"],
+		"correct_answer": 2
+	},
+	{
+		"question": "Which country is famous for pizza and pasta?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Italy", "Mexico", "India", "China"],
+		"correct_answer": 0
+	},
+	{
+		"question": "What is the name of the biggest continent on Earth?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["North America", "South America", "Europe", "Asia"],
+		"correct_answer": 3
+	},
+	{
+		"question": "What is the name of the planet we live on?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Mars", "Venus", "Jupiter", "Earth"],
+		"correct_answer": 3
+	},
+	{
+		"question": "What color is a banana?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Red", "Yellow", "Green", "Blue"],
+		"correct_answer": 1
+	},
+	{
+		"question": "What animal says 'meow'?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Dog", "Cat", "Mouse", "Elephant"],
+		"correct_answer": 1
+	},
+	{
+		"question": "What is the name of the toy that is shaped like a cube?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Ball", "Cylinder", "Cube", "Pyramid"],
+		"correct_answer": 2
+	},
+	{
+		"question": "What is the opposite of hot?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Cold", "Wet", "Dry", "Dark"],
+		"correct_answer": 0
+	},
+	{
+		"question": "What is the name of the planet we live on?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Mars", "Venus", "Earth", "Jupiter"],
+		"correct_answer": 2
+	},
+	{
+		"question": "What color is the sky on a sunny day?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Red", "Yellow", "Blue", "Green"],
+		"correct_answer": 2
+	},
+	{
+		"question": "What is the name of the famous mouse created by Walt Disney?",
+		"category": 6,
+		"difficulty": 1,
+		"options": ["Mickey Mouse", "Jerry Mouse", "Speedy Gonzales", "Tom Mouse"],
+		"correct_answer": 0
+	},
+	{
+		"question": "What is the name of the character who lives in a pineapple under the sea?",
+		"category": 6,
+		"difficulty": 1,
+		"options": [
+			"SpongeBob SquarePants",
+			"Patrick Star",
+			"Sandy Cheeks",
+			"Mr. Krabs"
+		],
+		"correct_answer": 0
+	}
+]

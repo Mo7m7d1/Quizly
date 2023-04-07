@@ -7,10 +7,10 @@ import {
 	QuestionProgress,
 } from "../components/index";
 import { questionType, searchParamsType } from "../types";
-import { json, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { Alert } from "@material-tailwind/react";
 import getSearchParams from "../utils/getSearchParams";
-import jsonData from "../data/dataAr.json";
+import jsonData from "../data/dataAr.min.json";
 
 export default function Quiz() {
 	const [questions, setQuestions] = useState<questionType[]>([]);
