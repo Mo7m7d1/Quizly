@@ -89,13 +89,6 @@
 		"correct_answer": 0
 	},
 	{
-		"question": "What is the name of the planet we live on?",
-		"category": 6,
-		"difficulty": 1,
-		"options": ["Mars", "Venus", "Earth", "Jupiter"],
-		"correct_answer": 2
-	},
-	{
 		"question": "What color is the sky on a sunny day?",
 		"category": 6,
 		"difficulty": 1,

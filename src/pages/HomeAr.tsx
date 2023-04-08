@@ -16,9 +16,16 @@ export default function Home() {
 				مرحباً بك في
 			</h1>
 			<div className="bg-white rounded-md shadow-lg  p-6 sm:w-10/12 md:w-auto">
-				<h2 className="text-xl font-bold mb-4 text-gray-700 text-right">
-					تصفية الأسئلة
-				</h2>
+				<div className="flex justify-between items-center flex-row-reverse mb-3">
+					<h2 className="text-xl font-bold mb-4 text-gray-700 text-right">
+						تصفية الأسئلة
+					</h2>
+					<Link to={`/quizly/gradualModeAr`}>
+						<Button size="sm" variant="gradient">
+							المود التصاعدي
+						</Button>
+					</Link>
+				</div>
 				<div className="flex flex-col sm:flex-col-reverse md:flex-row md:space-x-4 py-2">
 					<div className="flex-grow sm:mb-3">
 						<Select

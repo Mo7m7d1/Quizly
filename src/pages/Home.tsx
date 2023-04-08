@@ -32,6 +32,7 @@ export default function Home() {
 							<Option value="23">History</Option>
 							<Option value="11">Movies</Option>
 							<Option value="15">Games</Option>
+							<Option value="6">Kids</Option>
 						</Select>
 					</div>
 					<div className="flex-grow sm:mb-3">
