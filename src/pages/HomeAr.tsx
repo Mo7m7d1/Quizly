@@ -11,7 +11,7 @@ export default function Home() {
 		<div className="flex flex-col items-center justify-center h-[80vh] bg-gray-100">
 			<h1 className="text-4xl font-bold mb-12 text-gray-800 text-center">
 				<span className="bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
-					Quizly{" "}
+					Quizln{" "}
 				</span>
 				مرحباً بك في
 			</h1>
@@ -20,9 +20,9 @@ export default function Home() {
 					<h2 className="text-xl font-bold mb-4 text-gray-700 text-right">
 						تصفية الأسئلة
 					</h2>
-					<Link to={`/quizly/gradualModeAr`}>
+					<Link to={`/gradualModeAr`}>
 						<Button size="sm" variant="gradient">
-							المود التصاعدي
+							New
 						</Button>
 					</Link>
 				</div>
@@ -72,7 +72,7 @@ export default function Home() {
 					</div>
 				</div>
 				<Link
-					to={`/quizly/quizAr?category=${category}&difficulty=${difficulty}&numQuestions=${numQuestions}`}
+					to={`/quizAr?category=${category}&difficulty=${difficulty}&numQuestions=${numQuestions}`}
 				>
 					<Button variant="gradient" fullWidth className="mt-4">
 						ابدأ

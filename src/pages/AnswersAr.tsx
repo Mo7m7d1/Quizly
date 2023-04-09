@@ -18,8 +18,7 @@ export default function AnswersAr() {
 			setCurrentQuestionIndex((prevQuestionIndex) => prevQuestionIndex + 1);
 		}
 
-		if (currentQuestionIndex === questions.length - 1)
-			navigate("/quizly/homeAr");
+		if (currentQuestionIndex === questions.length - 1) navigate("/homeAr");
 	};
 
 	const fetchQuestions = () => {

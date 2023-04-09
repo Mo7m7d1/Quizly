@@ -10,7 +10,6 @@ import {
 	Answers,
 	GradualModeAr,
 } from "./pages";
-import GradualMode from "./pages/GradualModeAr";
 
 export default function App() {
 	return (
@@ -18,17 +17,15 @@ export default function App() {
 			<BrowserRouter>
 				<Navbar />
 				<Routes>
-					<Route path="/quizly">
-						<Route path="" element={<Home />} />
-						<Route path="about" element={<About />} />
-						<Route path="quiz" element={<Quiz />} />
-						<Route path="homeAr" element={<HomeAr />} />
-						<Route path="quizAr" element={<QuizAr />} />
-						<Route path="answers" element={<Answers />} />
-						<Route path="answersAr" element={<AnswersAr />} />
-						<Route path="gradualModeAr" element={<GradualModeAr />} />
-					</Route>
-					<Route path="/*" element={<Navigate to="/quizly" />} />
+					<Route path="/" element={<Home />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/quiz" element={<Quiz />} />
+					<Route path="/homeAr" element={<HomeAr />} />
+					<Route path="/quizAr" element={<QuizAr />} />
+					<Route path="/answers" element={<Answers />} />
+					<Route path="/answersAr" element={<AnswersAr />} />
+					<Route path="/gradualModeAr" element={<GradualModeAr />} />
+					<Route path="/*" element={<Navigate to="/" />} />
 				</Routes>
 				<Footer />
 			</BrowserRouter>

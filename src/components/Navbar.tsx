@@ -16,11 +16,11 @@ export default function Example() {
 	const [language, setLanguage] = useState(1);
 
 	const handleEnglish = () => {
-		navigate("quizly/");
+		navigate("/");
 		setLanguage(1);
 	};
 	const handleArabic = () => {
-		navigate("quizly/homeAr");
+		navigate("/homeAr");
 		setLanguage(2);
 	};
 
@@ -49,7 +49,7 @@ export default function Example() {
 		<ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
 			<Typography variant="small" color="blue-gray" className="p-1 font-normal">
 				<Link
-					to={language === 1 ? "quizly/" : "quizly/homeAr"}
+					to={language === 1 ? "/" : "/homeAr"}
 					className="flex items-center hover:text-blue-700 transition-all"
 				>
 					Home
@@ -57,7 +57,7 @@ export default function Example() {
 			</Typography>
 			<Typography variant="small" color="blue-gray" className="p-1 font-normal">
 				<Link
-					to="quizly/about"
+					to="/about"
 					className="flex items-center hover:text-blue-700 transition-all"
 				>
 					About
@@ -77,7 +77,7 @@ export default function Example() {
 					variant="small"
 					className="mr-4 cursor-pointer py-1.5 font-bold text-xl bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text  hover:from-blue-600 hover:to-purple-400 transition-all ease-in-out"
 				>
-					<Link to={language === 1 ? "quizly/" : "quizly/homeAr"}>Quizly</Link>
+					<Link to={language === 1 ? "/" : "/homeAr"}>Quizln</Link>
 				</Typography>
 
 				<div className="hidden lg:block">{navList}</div>

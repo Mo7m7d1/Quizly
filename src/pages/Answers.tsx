@@ -18,7 +18,7 @@ export default function Answers() {
 			setCurrentQuestionIndex((prevQuestionIndex) => prevQuestionIndex + 1);
 		}
 
-		if (currentQuestionIndex === questions.length - 1) navigate("/quizly/");
+		if (currentQuestionIndex === questions.length - 1) navigate("/");
 	};
 
 	const fetchQuestions = () => {

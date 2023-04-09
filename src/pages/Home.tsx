@@ -12,7 +12,7 @@ export default function Home() {
 			<h1 className="text-4xl font-bold mb-12 text-center text-gray-800">
 				Welcome to{" "}
 				<span className="bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
-					Quizly
+					Quizln
 				</span>
 			</h1>
 			<div className="bg-white rounded-md shadow-lg  p-6 sm:w-10/12 md:w-auto">
@@ -63,7 +63,7 @@ export default function Home() {
 					</div>
 				</div>
 				<Link
-					to={`/quizly/quiz?category=${category}&difficulty=${difficulty}&numQuestions=${numQuestions}`}
+					to={`/quiz?category=${category}&difficulty=${difficulty}&numQuestions=${numQuestions}`}
 				>
 					<Button variant="gradient" fullWidth className="mt-4">
 						Start Quiz

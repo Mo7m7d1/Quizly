@@ -45,7 +45,7 @@ export default function Quiz() {
 		setSelectedOptionIndex(-1);
 		setScore(0);
 		setShowResult(false);
-		navigate("/quizly/");
+		navigate("/");
 	};
 
 	const handleNextClick = () => {
@@ -77,7 +77,7 @@ export default function Quiz() {
 	const handleAnswersClick = () => {
 		if (wrongAnswers.length === 0) return;
 
-		navigate("/quizly/answers", {
+		navigate("/answers", {
 			state: {
 				questions: wrongAnswers,
 				selectedOptions: selectedOptions,

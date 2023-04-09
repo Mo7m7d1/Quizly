@@ -44,13 +44,13 @@ export default function Quiz() {
 		setSelectedOptionIndex(-1);
 		setScore(0);
 		setShowResult(false);
-		navigate("/quizly/homeAr");
+		navigate("/homeAr");
 	};
 
 	const onAnswersClick = () => {
 		if (wrongAnswers.length === 0) return;
 
-		navigate("/quizly/answersAr", {
+		navigate("/answersAr", {
 			state: {
 				questions: wrongAnswers,
 				selectedOptions: selectedOptions,

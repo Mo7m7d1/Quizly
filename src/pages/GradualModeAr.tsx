@@ -23,6 +23,7 @@ export default function GradualModeAr() {
 	const [timer, setTimer] = useState(initialTime);
 	const [wrongAnswers, setWrongAnswers] = useState<questionType[]>([]);
 	const [selectedOptions, setSelectedOptions] = useState<number[]>([]);
+	const [levelTime, setLevelTime] = useState<number[]>([15, 10, 7]);
 
 	const handleOptionClick = (optionIndex: number) => {
 		setSelectedOptionIndex(optionIndex);
@@ -42,13 +43,13 @@ export default function GradualModeAr() {
 		setSelectedOptionIndex(-1);
 		setScore(0);
 		setShowResult(false);
-		navigate("/quizly/homeAr");
+		navigate("/homeAr");
 	};
 
 	const onAnswersClick = () => {
 		if (wrongAnswers.length === 0) return;
 
-		navigate("/quizly/answersAr", {
+		navigate("/answersAr", {
 			state: {
 				questions: wrongAnswers,
 				selectedOptions: selectedOptions,
@@ -74,7 +75,7 @@ export default function GradualModeAr() {
 
 		if (currentQuestionIndex < questions.length - 1) {
 			setCurrentQuestionIndex((prevQuestionIndex) => prevQuestionIndex + 1);
-			setTimer(initialTime);
+			setTimer(levelTime[currentQuestionIndex + 1]);
 		} else {
 			setShowResult(true);
 		}
@@ -94,6 +95,9 @@ export default function GradualModeAr() {
 				.slice(0, 10);
 
 			setQuestions(filteredData);
+			setLevelTime(
+				filteredData.map((question) => levelTime[question.difficulty! - 1])
+			);
 		} catch (err) {
 			console.error(err);
 		} finally {
