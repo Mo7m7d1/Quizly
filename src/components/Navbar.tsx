@@ -69,8 +69,7 @@ export default function Example() {
 	return (
 		<Navbar
 			ref={navbarRef}
-			className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4"
-			style={{ position: "sticky", top: 0 }}
+			className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 sticky top-0"
 		>
 			<div className="container mx-auto flex items-center justify-between text-blue-gray-900">
 				<Typography
@@ -126,12 +125,18 @@ export default function Example() {
 				</IconButton>
 			</div>
 			<MobileNav open={openNav}>
-				<div className="container mx-auto">
-					{navList}
-					<Select label="Language">
-						<Option onClick={() => handleEnglish()}>English</Option>
-						<Option onClick={() => handleArabic()}>Arabic</Option>
-					</Select>
+				<div
+					className={`fixed z-50 bg-white pb-4 top-0 left-0 right-0 shadow-md transition-transform duration-300 ease-out transform ${
+						openNav ? "translate-y-0 top-14" : "-translate-y-full"
+					}`}
+				>
+					<div className="container mx-auto">
+						{navList}
+						<Select label="Language">
+							<Option onClick={() => handleEnglish()}>English</Option>
+							<Option onClick={() => handleArabic()}>Arabic</Option>
+						</Select>
+					</div>
 				</div>
 			</MobileNav>
 		</Navbar>
