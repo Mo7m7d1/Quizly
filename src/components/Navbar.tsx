@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import {
-	Navbar,
+	Navbar as NavbarTW,
 	MobileNav,
 	Typography,
 	IconButton,
@@ -9,7 +9,7 @@ import {
 } from "@material-tailwind/react";
 import { Link, useNavigate } from "react-router-dom";
 
-export default function Example() {
+export default function Navbar() {
 	const [openNav, setOpenNav] = useState(false);
 	const navigate = useNavigate();
 	const navbarRef = useRef(null);
@@ -67,7 +67,7 @@ export default function Example() {
 	);
 
 	return (
-		<Navbar
+		<NavbarTW
 			ref={navbarRef}
 			className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 sticky top-0"
 		>
@@ -139,6 +139,6 @@ export default function Example() {
 					</div>
 				</div>
 			</MobileNav>
-		</Navbar>
+		</NavbarTW>
 	);
 }
